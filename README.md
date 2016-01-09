@@ -1,22 +1,25 @@
-LilyPond Roman numeral analysis tool
-====================================
+LilyPond Roman numeral analysis package
+=======================================
 
 ## What's this?
 
-This tool provides a convenient method of creating Roman numerals for harmonic
+This package provides a convenient method of creating Roman numerals for harmonic
 analysis.  It works in conjunction with the program GNU LilyPond, which is
 available for download [here](http://lilypond.org/download.html).
 
 ## How is it used?
 
-To make this tool available to your LilyPond file, you can either
+To use this package:
 
-1. copy the code in `roman_numeral_analysis_tool.ily` directly into your `ly` file, or
-2. add `\include "roman_numeral_analysis_tool.ily"` to the head (assuming
-that both files are in the same directory).
+1. Make sure you have [lyp](https://github.com/noteflakes/lyp) installed on your machine. 
+2. Install the package by running <code>lyp install roman-numerals</code>.
+3. Require it in your code:
 
-The two methods do the same thing, but using `include` is a good way to keep your `.ly`
-file uncluttered.
+```lilypond
+\require "roman-numerals"
+```
+
+## Using roman numerals
 
 Roman numerals may be created wherever markups are allowed within a LilyPond
 file.  When adding an analysis to music, however, it is strongly recommended
