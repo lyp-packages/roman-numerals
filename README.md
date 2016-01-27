@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/noteflakes/lyp-roman-numerals.svg?branch=master)](https://travis-ci.org/noteflakes/lyp-roman-numerals)
+
 LilyPond Roman numeral analysis package
 =======================================
 
