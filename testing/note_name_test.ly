@@ -2,7 +2,7 @@
 
 %% Display the available English notes.
 
-\include "roman_numeral_analysis_tool.ily"
+\include "../roman_numeral_analysis_tool.ily"
 
 \paper {
   markup-markup-spacing.basic-distance = 4
