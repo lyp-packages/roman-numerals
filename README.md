@@ -7,11 +7,15 @@ This package provides a convenient method of creating Roman numerals for harmoni
 
 ## Installation
 
-To use this package:
+To use this package you'll need to have [lyp](https://github.com/noteflakes/lyp) installed on your machine.
 
-1. Make sure you have the [lilypond package manager](https://github.com/noteflakes/lyp) installed on your machine.
-1. Install the package by running `lyp install roman-numerals`.
-2. Require the package in your code:
+Install the roman-numerals package:
+
+```bash
+lyp install roman-numerals
+```
+
+Require the package in your code:
 
 ```lilypond
 \require "roman-numerals"
