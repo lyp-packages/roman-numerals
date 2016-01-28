@@ -31,7 +31,7 @@ To test the roman-numerals, run `lyp test`:
 lyp test .
 ```
 
-**Note**: the test file will fail on some Linux 64 machines when using Lilypond 2.19.
+**Note**: the test file will fail on some Linux 64 machines [when using Lilypond 2.19](http://sourceforge.net/p/testlily/issues-2015-08-17/4395/).
 
 ## Usage
 
