@@ -23,6 +23,16 @@ Require the package in your code:
 ...
 ```
 
+## Testing
+
+To test the roman-numerals, run `lyp test`:
+
+```bash
+lyp test .
+```
+
+**Note**: the test file will fail on some Linux 64 machines when using Lilypond 2.19.
+
 ## Usage
 
 Roman numerals may be created wherever markups are allowed within a LilyPond
