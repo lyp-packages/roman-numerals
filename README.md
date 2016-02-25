@@ -13,7 +13,7 @@ To use this package you'll need to have [lyp](https://github.com/noteflakes/lyp)
 Install the roman-numerals package:
 
 ```bash
-lyp install roman-numerals
+$ lyp install roman-numerals
 ```
 
 Require the package in your code:
